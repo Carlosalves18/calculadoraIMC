@@ -6,7 +6,7 @@ function calculateIMC() {
         var imc = weight / (height * height);
         var classifica = getIMC(imc);
 
-        var result = `Seu IMC é ${imc.toFixed(2)} - ${classifica}`;
+        var result = `Seu IMC é ${imc.toFixed()} - ${classifica}`;
         document.getElementById("result").innerText = result;
     } else {
         document.getElementById("result").innerText = "Por favor, preencha peso e altura.";
