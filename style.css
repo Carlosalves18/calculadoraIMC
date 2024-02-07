@@ -1,4 +1,6 @@
-
+body{
+    background-color: black;
+}
 .calculator {
     background-color: aqua; 
     border-radius: 25px;
