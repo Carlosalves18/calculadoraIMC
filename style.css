@@ -2,8 +2,9 @@ body{
     background-color: black;
 }
 .calculator {
+  text-align: center;
     background-color: aqua; 
-    text-align: center;
+    border-top-width:200px
     max-width: 50%;
     margin: auto;
     
@@ -12,9 +13,4 @@ body{
 input, button {
     margin-top:10px;
 }
-@media screen and (max-width: 600px) {
-    
-        max-width: 100%; 
-        border-radius: 0; 
-    }
-}
+
