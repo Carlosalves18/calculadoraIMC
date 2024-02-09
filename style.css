@@ -2,11 +2,12 @@ body{
     background-color: black;
 }
 .calculator {
+     background-color: aqua;
     text-align: center;
     max-width: 300px;
     margin: auto;
     border-top-width:200px
-    background-color: aqua;
+   
     
 }
 
